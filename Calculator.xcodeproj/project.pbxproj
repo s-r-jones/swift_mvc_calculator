@@ -156,6 +156,8 @@
 		CDC341611BAB94B8007EB951 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Sam Jones";
 				TargetAttributes = {
@@ -411,6 +413,7 @@
 				CDC3418A1BAB94B8007EB951 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDC3418B1BAB94B8007EB951 /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +422,7 @@
 				CDC3418D1BAB94B8007EB951 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
