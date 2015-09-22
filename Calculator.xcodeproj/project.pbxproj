@@ -13,6 +13,7 @@
 		CDC341761BAB94B8007EB951 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC341751BAB94B8007EB951 /* Images.xcassets */; };
 		CDC341791BAB94B8007EB951 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDC341771BAB94B8007EB951 /* LaunchScreen.xib */; };
 		CDC341851BAB94B8007EB951 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC341841BAB94B8007EB951 /* CalculatorTests.swift */; };
+		CDC7A0A51BB08C1E00D1C9A9 /* CalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC7A0A41BB08C1E00D1C9A9 /* CalculatorModel.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		CDC3417E1BAB94B8007EB951 /* CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC341831BAB94B8007EB951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDC341841BAB94B8007EB951 /* CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
+		CDC7A0A41BB08C1E00D1C9A9 /* CalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		CDC341601BAB94B8007EB951 = {
 			isa = PBXGroup;
 			children = (
+				CDC7A0A41BB08C1E00D1C9A9 /* CalculatorModel.swift */,
 				CDC3416B1BAB94B8007EB951 /* Calculator */,
 				CDC341811BAB94B8007EB951 /* CalculatorTests */,
 				CDC3416A1BAB94B8007EB951 /* Products */,
@@ -214,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDC7A0A51BB08C1E00D1C9A9 /* CalculatorModel.swift in Sources */,
 				CDC341711BAB94B8007EB951 /* ViewController.swift in Sources */,
 				CDC3416F1BAB94B8007EB951 /* AppDelegate.swift in Sources */,
 			);
